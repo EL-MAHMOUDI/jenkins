@@ -1,4 +1,5 @@
-node{
+pipeline{
+    stages{
     stage('SCM checkout'){
         git 'https://github.com/EL-MAHMOUDI/jenkins'
     }
@@ -51,4 +52,5 @@ node{
                     }
                 }
             }
+    }
 }
