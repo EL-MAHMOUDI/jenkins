@@ -14,6 +14,6 @@ public class JenkinsApplication {
 
     @Bean
     CommandLineRunner loader(){
-        return args -> System.out.println("Hello AMIN ELMAHMOUDI!");
+        return args -> System.out.println("Hello AMIN!");
     }
 }
